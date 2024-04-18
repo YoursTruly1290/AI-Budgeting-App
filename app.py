@@ -1,7 +1,7 @@
 
 from budget_app import Budget
 
-app = Flask(__name__, static_url_path='/static')
+
 budget = Budget(0)
 
 @app.route('/')
