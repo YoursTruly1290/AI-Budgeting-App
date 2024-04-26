@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, jsonify
+# from flask import Flask, render_template, request, jsonify
 from budget_app import Budget
 
-app = Flask(__name__, static_url_path='/static')
+# app = Flask(__name__, static_url_path='/static')
 budget = Budget(0)
 
 @app.route('/')
